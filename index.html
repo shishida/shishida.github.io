@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.shishida.net</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        main {
+            padding: 2rem 0;
+        }
+        .social-links {
+            margin-top: 2rem;
+        }
+        .social-links a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #333;
+            display: inline-flex;
+            align-items: center;
+        }
+        .social-links a svg {
+            margin-right: 0.5rem;
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/api/placeholder/1200/300" alt="ヘッダー画像">
+            <h1>www.shishida.net</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h2>サイトのサマリー</h2>
+                <p>ここにサイトの概要や自己紹介などを記入してください。このテキストは、画面幅に応じて自動的に調整されます。ブラウザの幅が1200pxを超える場合、コンテンツは中央に配置され、左右に余白が表示されます。それ以下の幅の場合は、コンテンツが画面幅いっぱいに表示されます。</p>
+            </section>
+            <section class="social-links">
+                <h2>ソーシャルメディア</h2>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <i data-feather="facebook"></i>
+                    Facebook
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank">
+                    <i data-feather="twitter"></i>
+                    X (Twitter)
+                </a>
+            </section>
+        </div>
+    </main>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
